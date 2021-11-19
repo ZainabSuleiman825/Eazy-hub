@@ -1,0 +1,86 @@
+
+.head{
+    background-color: aqua;
+    padding:14px 14px;
+    font-family: cursive;
+}
+.topnav{
+    overflow:hidden;
+    background-color: aqua;
+}
+.topnav a{
+    float:left;
+    padding:20px 16px;
+    color:black;
+    text-align:center;
+    text-decoration: none;
+    font-size:22px;
+    font-family: cursive;
+    transition: all 1.3s
+    
+}
+.topnav a:hover{
+    background-color:greenyellow;
+    transform: scale(1.2)
+}
+.topnav a:active{
+    background-color: yellow
+}
+#Logo{
+    position: absolute;
+    height: 110px;
+}
+
+#cont{
+    background-image:linear-gradient(to bottom right,white,aqua);
+    cursor: pointer
+}
+#cont:hover{
+     transform: scale(1.3)
+}
+#cont1{
+    background-image:linear-gradient(to bottom right,white,greenyellow,aqua);
+     cursor: pointer
+}
+#cont1:hover{
+    transform: scale(1.3);
+}
+
+#Exterior{
+    float:left;
+    font-size:20px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: all 0.8s
+    }
+#Exterior:hover{
+    transform: scale(1.05);
+    background-image:linear-gradient(to top left, aqua,white)
+}
+#jpgs{
+    max-height:400px;
+    width: 40%;
+    float:left;
+    transition: all 1.2s;
+}
+#jpgs:hover{
+    transform: scale(0.9)
+}
+#Inter{
+    float:left;
+    font-size:20px;
+    font-family: cursive;
+    transition: all 0.8s
+}
+#Inter:hover{
+    transform: scale(1.05);
+    background-image:linear-gradient(to top left, aqua,white)
+}
+
+.head{
+overflow: hidden;
+background:aqua;
+text-align:left;
+font-family:'Courier New', Courier, monospace
+}
+

@@ -1,0 +1,216 @@
+<!doctype html>
+<head>
+
+  
+  </div>
+
+<style>
+.navbar {
+    overflow: hidden;
+    background-color:yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: beige;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:palevioletred
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color:lavenderblush;
+  font-size: 80px;
+  padding: 16px 32px;
+}
+</style>
+
+
+<link rel="stylesheet" href="Css\Style.css" type="text/css">
+</head>
+<header class="head">
+    <h1><img src="Img/Logo.png">EAZY-HUB ONLINE PAINT SHOP</h1>
+</header>
+
+
+<div class="topnav">
+  <a href ="index.html">Home</a>
+            <a href="Services.html">Services</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="About us.html">About us</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="login.html">login</a>
+</div>    
+  </div>
+  </div> 
+</div>
+
+
+
+<body bgcolor="#6495ed">
+
+
+	<title>Log In</title>
+</head>
+<style>
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 120%;
+	background:"84.jpg"
+;
+}
+.header{
+	width: 30%;
+	margin:50px auto 0px;
+	color: white;
+	background:greenyellow;
+	text-align: center;
+	border: 1px solid Blue ;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form{
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group{
+       margin: 10px 0px 10px 0px;
+}
+.input-group label{
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;	
+}
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: Red;
+	border-radius: 5px;
+}
+</style>
+<body>
+<div class="header">
+	<h2>Log In</h2>
+</div>
+<form action="db/login.php" method="POST">
+	<div class="input-group">
+		<label>Username</label>
+		<input type="text" name="uid">
+	</div>
+	<div class="input-group">
+		<label>Password</label>
+		<input type="password" name="pwd">
+	</div>
+	<div class="input-group">
+		<button type="submit" name="submit" class="btn">Login</button>
+	</div>
+	<p>
+		Dont have an account? <a href="Register.html">Register</a>
+	</p>
+</form>
+</body>
+</html>
+
+
+
